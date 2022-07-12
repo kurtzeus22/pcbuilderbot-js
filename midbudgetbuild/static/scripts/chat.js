@@ -69,10 +69,10 @@ function getResponse() {
     else if (userText == "intel core i7-9700k") {
         window.location.href="intelb/intelb.html";
     }
-    else if (userText == "amd ryzen 5 5600") {
+    else if (userText == "ryzen 5 5600") {
         window.location.href="amda/amda.html";
     }
-    else if (userText == "amd ryzen 7 3700x") {
+    else if (userText == "ryzen 7 3700x") {
         window.location.href="amdb/amdb.html";
     }
 
