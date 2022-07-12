@@ -6,4 +6,6 @@ html {
 body {
     margin: 0 auto;
     background-color: #222;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
 }
