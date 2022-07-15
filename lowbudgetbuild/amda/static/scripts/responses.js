@@ -87,7 +87,7 @@ function getBotResponse(input) {
     else if (input == "nvidia gtx 1660ti") {
         return "Good Choice! Now for the next part, let us now proceed to the Case for your PC<br>Please pick the case you want to use: <br><br>HEC X300 - This case is for users who has a good amount of space for their PC place. I recommend using this case if you dont want to upgrade, or add Graphics Card.<br>Link: <a href = https://pangoly.com/en/review/hec-hx300>HEC X300 </a> <br><br>Cougar MX340 - This case is for those users who plan to furhter update their PCs in the future. I recommend this also for those who wants to have a smooth ventilation for their PC.<br>Link: <a href = https://pangoly.com/en/review/cougar-mx340>Cougar MX340 </a> <br><br>Please type in the name of your choice.";
     }
-    else if (input == "amd rx580") {
+    else if (input == "amd rx 580") {
         return "Good Choice! Now for the next part, let us now proceed to the Case for your PC<br>Please pick the case you want to use: <br><br>HEC X300 - This case is for users who has a good amount of space for their PC place. I recommend using this case if you dont want to upgrade, or add Graphics Card.<br>Link: <a href = https://pangoly.com/en/review/hec-hx300>HEC X300 </a> <br><br>Cougar MX340 - This case is for those users who plan to furhter update their PCs in the future. I recommend this also for those who wants to have a smooth ventilation for their PC.<br>Link: <a href = https://pangoly.com/en/review/cougar-mx340>Cougar MX340 </a> <br><br>Please type in the name of your choice.";
     }
     else if (input == "nvidia gtx 1050ti") {
