@@ -35,7 +35,7 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "Ryzen 3 3300X Quad-Core AM4 Processor from AMD has a base clock speed of 3.8 GHz, a maximum turbo frequency of 4.3 GHz, and supports PCIe 4.0 bandwidth . <br>Click here for more info: <a href = https://www.amd.com/en/products/cpu/amd-ryzen-3-3300x>Ryzen 3 3300X </a><br><br>Type Next once you add this to cart."
+    let firstMessage = "Ryzen 3 3300X Quad-Core AM4 Processor from AMD has a base clock speed of 3.8 GHz, a maximum turbo frequency of 4.3 GHz, and supports PCIe 4.0 bandwidth . <br>Click here for more info: <a href = https://pcbuilderbot.000webhostapp.com/product.php?id=23>Ryzen 3 3300X </a><br><br>Type Next once you add this to cart."
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();

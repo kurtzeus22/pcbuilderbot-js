@@ -35,7 +35,7 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "Good Choice! Ryzen 5 5600 has 6 cores and 12 threads with 32MB of L3 cache and 3MB of L2 cache. Base clock is listed at 3.5GHz . To learn more: <a href = https://www.amd.com/en/products/cpu/amd-ryzen-5-5600>Ryzen 5 5600</a><br><br>Type Next once you add this to cart."
+    let firstMessage = "Good Choice! Ryzen 5 5600 has 6 cores and 12 threads with 32MB of L3 cache and 3MB of L2 cache. Base clock is listed at 3.5GHz . To learn more: <a target=_blank href = https://pcbuilderbot.000webhostapp.com/product.php?id=51>Ryzen 5 5600</a><br><br>Type Next once you add this to cart."
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();

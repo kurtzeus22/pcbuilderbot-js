@@ -35,7 +35,7 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "Good Choice! AMD Ryzen Threadripper processor is one of the advanced processors with improved multi-threaded performance and thermal management. It is a 16 core and 32 threaded processor with updated 2nd generation Ryzen technology. <br>Click here for more info: <a href = https://www.amd.com/en/products/cpu/amd-ryzen-threadripper-2950x >Ryzen Threadripper 2950X </a><br><br>Type Next once you add this to cart."
+    let firstMessage = "Good Choice! AMD Ryzen Threadripper processor is one of the advanced processors with improved multi-threaded performance and thermal management. It is a 16 core and 32 threaded processor with updated 2nd generation Ryzen technology. <br>Click here for more info: <a target=_blank href = https://pcbuilderbot.000webhostapp.com/product.php?id=73>Ryzen Threadripper 2950X </a><br><br>Type Next once you add this to cart."
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();

@@ -35,7 +35,7 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "Good Choice! Intel Core i9-9900k desktop processor is an 8 core 5.0 GHz turbo unlocked LGA1151 300 series desktop processor. It has one of the highest frequencies and has switched to solder thermal interface material (STIM). <br>To learn more: <a href = https://www.intel.com/content/www/us/en/products/sku/186605/intel-core-i99900k-processor-16m-cache-up-to-5-00-ghz/specifications.html >Intel Core i9-9900k </a><br><br> Type Next once you add this to cart."
+    let firstMessage = "Good Choice! Intel Core i9-9900k desktop processor is an 8 core 5.0 GHz turbo unlocked LGA1151 300 series desktop processor. It has one of the highest frequencies and has switched to solder thermal interface material (STIM). <br>To learn more: <a target=_blank href = https://pcbuilderbot.000webhostapp.com/product.php?id=70>Intel Core i9-9900k </a><br><br> Type Next once you add this to cart."
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();

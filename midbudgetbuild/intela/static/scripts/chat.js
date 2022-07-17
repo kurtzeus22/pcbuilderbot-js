@@ -35,7 +35,7 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "Good Choice! Intel Core i5-11400F is a pretty great budget CPU in the grand scheme of things. It not only offers comparable gaming speeds to its more expensive competitors at a lower TDP, but its everyday desktop performance is pretty great as well. <br>To learn more: <a href = https://www.intel.com/content/www/us/en/products/sku/212271/intel-core-i511400f-processor-12m-cache-up-to-4-40-ghz/specifications.html >Intel Core i5-11400F </a><br><br> Type Next once you add this to cart."
+    let firstMessage = "Good Choice! Intel Core i5-11400F is a pretty great budget CPU in the grand scheme of things. It not only offers comparable gaming speeds to its more expensive competitors at a lower TDP, but its everyday desktop performance is pretty great as well. <br>To learn more: <a target=_blank href = https://pcbuilderbot.000webhostapp.com/product.php?id=49>Intel Core i5-11400F </a><br><br> Type Next once you add this to cart."
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();

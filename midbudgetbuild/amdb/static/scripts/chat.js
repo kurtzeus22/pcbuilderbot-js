@@ -35,7 +35,7 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "Good Choice! he AMD Ryzen 7 3700X is a brilliant piece of hardware. With a TDP of just 65W, this chip is capable of delivering raw performance that would take other processors much more power to equal.<br>Click here for more info: <a href = https://www.amd.com/en/products/cpu/amd-ryzen-7-3700x>Ryzen 7 3700X </a><br><br>Type Next once you add this to cart."
+    let firstMessage = "Good Choice! he AMD Ryzen 7 3700X is a brilliant piece of hardware. With a TDP of just 65W, this chip is capable of delivering raw performance that would take other processors much more power to equal.<br>Click here for more info: <a target=_blank href = https://pcbuilderbot.000webhostapp.com/product.php?id=52>Ryzen 7 3700X </a><br><br>Type Next once you add this to cart."
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();

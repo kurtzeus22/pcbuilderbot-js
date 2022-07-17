@@ -35,7 +35,7 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "Good Choice! Ryzen 3 2200G is a 64-bit quad-core low-end performance x86 desktop microprocessor introduced by AMD in early 2018 . <br>To learn more: <a href = https://www.amd.com/en/products/apu/amd-ryzen-3-2200g>Ryzen 3 2200G </a> <br><br>Type Next once you add this to cart."
+    let firstMessage = "Good Choice! Ryzen 3 2200G is a 64-bit quad-core low-end performance x86 desktop microprocessor introduced by AMD in early 2018 . <br>To learn more: <a href = https://pcbuilderbot.000webhostapp.com/product.php?id=20>Ryzen 3 2200G </a> <br><br>Type Next once you add this to cart."
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();

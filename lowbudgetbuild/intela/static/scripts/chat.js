@@ -35,7 +35,7 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "Good Choice! Intel Core i3-12100 is Built using the Alder Lake architecture with the Intel 7 process. <br>To learn more: <a href = https://www.intel.com/content/www/us/en/products/sku/134584/intel-core-i312100-processor-12m-cache-up-to-4-30-ghz/specifications.html >Intel Core i3-12100</a> <br><br> Type Next once you add this to cart."
+    let firstMessage = "Good Choice! Intel Core i3-12100 is Built using the Alder Lake architecture with the Intel 7 process. <br>To learn more: <a target=_blank href = https://pcbuilderbot.000webhostapp.com/product.php?id=17>Intel Core i3-12100</a> <br><br> Type Next once you add this to cart."
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();

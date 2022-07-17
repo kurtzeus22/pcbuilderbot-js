@@ -35,7 +35,7 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "Good Choice! The Intel Core i5 12400 is an outstanding gaming CPU. Its a ~$200 processor that deserves to sit at the heart of your next budget PC build. <br>To learn more: <a href = https://ark.intel.com/content/www/us/en/ark/products/134586/intel-core-i512400-processor-18m-cache-up-to-4-40-ghz.html >Intel Core i5-12400 </a><br><br>Type Next once you add this to cart."
+    let firstMessage = "Good Choice! The Intel Core i5 12400 is an outstanding gaming CPU. Its a ~$200 processor that deserves to sit at the heart of your next budget PC build. <br>To learn more: <a target=_blank href = https://pcbuilderbot.000webhostapp.com/product.php?id=21>Intel Core i5-12400 </a><br><br>Type Next once you add this to cart."
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();

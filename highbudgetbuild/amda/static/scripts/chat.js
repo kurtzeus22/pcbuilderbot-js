@@ -35,7 +35,7 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "Good Choice! The AMD Ryzen 9 3590X is a 16core, 32-threaded desktop processor. It is a highly threaded horsepower into an affordable motherboard. To learn more: <a href = https://www.amd.com/en/products/cpu/amd-ryzen-9-3950x >Ryzen 9 3590X</a> <br><br>Type Next once you add this to cart."
+    let firstMessage = "Good Choice! The AMD Ryzen 9 3590X is a 16core, 32-threaded desktop processor. It is a highly threaded horsepower into an affordable motherboard. To learn more: <a target=_blank href = https://pcbuilderbot.000webhostapp.com/product.php?id=72>Ryzen 9 3590X</a> <br><br>Type Next once you add this to cart."
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();

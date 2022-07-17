@@ -35,7 +35,7 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "Good Choice! With eight cores and eight threads of Coffee Lake refresh goodness within, and a max boost clock of 4.9GHz, this chip has exactly what it takes to deliver excellent frames per second, and a little more. <br>To learn more: <a href = >Intel Core i7-9700K </a><br><br>Type Next once you add this to cart."
+    let firstMessage = "Good Choice! With eight cores and eight threads of Coffee Lake refresh goodness within, and a max boost clock of 4.9GHz, this chip has exactly what it takes to deliver excellent frames per second, and a little more. <br>To learn more: <a target=_blank href = https://pcbuilderbot.000webhostapp.com/product.php?id=50>Intel Core i7-9700K </a><br><br>Type Next once you add this to cart."
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();

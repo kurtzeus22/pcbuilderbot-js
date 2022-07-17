@@ -35,7 +35,7 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "Good Choice! Athlon 240GE is a 64-bit dual-core low-end performance x86 desktop microprocessor introduced by AMD in late 2018 . <br>Click here for more info: <a href = https://www.amd.com/en/products/apu/amd-athlon-240ge >Athlon 240GE </a> <br><br>Type Next once you add this to cart."
+    let firstMessage = "Good Choice! Athlon 240GE is a 64-bit dual-core low-end performance x86 desktop microprocessor introduced by AMD in late 2018 . <br>Click here for more info: <a target=_blank href = https://pcbuilderbot.000webhostapp.com/product.php?id=22>Athlon 240GE </a> <br><br>Type Next once you add this to cart."
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();

@@ -35,7 +35,7 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "Good Choice! Intel Core i9-10920X can turbo boost up to 4.6GHz and 4.8GHz with average turbo boost max 2.0 frequency. <br>To learn more: <a href = https://www.intel.com/content/www/us/en/products/sku/198012/intel-core-i910920x-xseries-processor-19-25m-cache-3-50-ghz/specifications.html >Intel Core i9-10920X </a><br><br>Type Next once you add this to cart."
+    let firstMessage = "Good Choice! Intel Core i9-10920X can turbo boost up to 4.6GHz and 4.8GHz with average turbo boost max 2.0 frequency. <br>To learn more: <a target=_blank href = https://pcbuilderbot.000webhostapp.com/product.php?id=71>Intel Core i9-10920X </a><br><br>Type Next once you add this to cart."
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();
